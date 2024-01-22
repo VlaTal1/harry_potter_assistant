@@ -63,7 +63,7 @@ class Assistant:
 
         os.environ["AZURE_OPENAI_API_KEY"] = st.secrets["AZURE_OPENAI_API_KEY"]
         os.environ["OPENAI_API_TYPE"] = st.secrets["OPENAI_API_TYPE"]
-        os.environ["OPENAI_API_VERSION"] = st.setcrets["OPENAI_API_VERSION"]
+        os.environ["OPENAI_API_VERSION"] = st.secrets["OPENAI_API_VERSION"]
         os.environ["AZURE_OPENAI_ENDPOINT"] = st.secrets["AZURE_OPENAI_ENDPOINT"]
         self.make_template()
 
